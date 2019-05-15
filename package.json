@@ -1,0 +1,42 @@
+{
+  "name": "search",
+  "version": "0.0.1",
+  "description": "SEARCH ENGINE",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kbouzidi/search.git"
+  },
+  "keywords": [
+    "search",
+    "engine"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kbouzidi/search/issues"
+  },
+  "homepage": "https://github.com/kbouzidi/search#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bunyan": "^1.8.12",
+    "bunyan-format": "^0.2.1",
+    "callback": "0.0.1",
+    "cheerio": "^1.0.0-rc.3",
+    "cluster": "^0.7.7",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^7.0.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-session": "^1.16.1",
+    "length": "0.0.1",
+    "mysql": "^2.17.1",
+    "parser": "^0.1.4",
+    "sequelize": "^5.8.6",
+    "sync-request": "^6.1.0"
+  }
+}
