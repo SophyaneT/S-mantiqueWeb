@@ -1,0 +1,31 @@
+<html>  
+<head>
+    <meta charset="UTF-8">
+   
+</head>  
+<body background="White">  
+       <form method="get"> 
+    <h1 align="center"> Maïs Recherche </h1>
+    <h5 align="right"> by Granet and Sophyane</h5>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <div align="center">
+        <input type="text" name="MaRecherche" size="50">
+    </div>
+    <br>
+    <div align="center">
+    	<button type="submit" valu="button"> recherche </button>
+	</div>
+
+    <br>
+    <div align="center">
+    	<label value="results"><%= results %></label>
+	</div>
+<?php
+  echo $_GET['MaRecherche'];
+?>
+</body>  
+</html>  
